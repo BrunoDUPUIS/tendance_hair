@@ -136,6 +136,7 @@
         <h2>Envie d'un nouveau look ?</h2>
 
         <p>Réservez votre rendez-vous en quelques clics.</p>
+        <div class="test"></div>
 
         <a
           href="https://www.planity.com/tendance-hair-40500-saint-sever"
@@ -190,7 +191,9 @@ body {
   font-family: Poppins, sans-serif;
   color: #222;
 }
-
+.test {
+  margin-bottom: 20px;
+}
 .container {
   width: 90%;
   max-width: 1200px;
@@ -228,7 +231,13 @@ nav a {
   color: #222;
 }
 
-.btn,
+.btn {
+  background: #c79b5d;
+  color: white;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 40px;
+}
 .hero-btn {
   background: #c79b5d;
   color: white;
@@ -236,7 +245,6 @@ nav a {
   padding: 14px 28px;
   border-radius: 40px;
 }
-
 .hero {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/hero.jpg');
