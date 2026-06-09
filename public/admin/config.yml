@@ -1,0 +1,28 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: 'public/uploads'
+public_folder: '/uploads'
+
+locale: 'fr'
+
+collections:
+  - name: 'pages'
+    label: 'Pages'
+
+    files:
+      - label: 'Accueil'
+        name: 'home'
+        file: 'src/content/home.json'
+
+        fields:
+          - { label: 'Titre', name: 'title', widget: 'string' }
+
+          - { label: 'Sous titre', name: 'subtitle', widget: 'text' }
+
+          - { label: 'Image Hero', name: 'heroImage', widget: 'image' }
+
+          - { label: 'Téléphone', name: 'phone', widget: 'string' }
+
+          - { label: 'Email', name: 'email', widget: 'string' }
